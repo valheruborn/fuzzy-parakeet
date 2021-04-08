@@ -8,4 +8,4 @@ npm-debug.log
 .nuxt
 
 # Pvt key
-.ssh/
+.toks/
