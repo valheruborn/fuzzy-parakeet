@@ -30,7 +30,7 @@ export default {
 
   // Router config
   router: {
-    base: '/myBlog/',
+    base: '/fuzzy-parakeet/',
     trailingSlash: true,
   },
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
