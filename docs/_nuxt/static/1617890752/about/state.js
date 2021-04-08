@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Ffuzzy-parakeet\u002F_nuxt\u002Fstatic\u002F1617890752",layout:"default",error:a,serverRendered:true,routePath:"\u002Fabout\u002F",config:{app:{basePath:"\u002Ffuzzy-parakeet\u002F",assetsPath:"\u002Ffuzzy-parakeet\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"e7e26a50"}}}}(null));
