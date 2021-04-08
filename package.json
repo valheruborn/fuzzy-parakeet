@@ -1,0 +1,29 @@
+{
+  "name": "perBlog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.14.0",
+    "@octokit/rest": "^18.5.2",
+    "@tailwindcss/typography": "^0.4.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12",
+    "push-dir": "^0.4.1",
+    "remark-emoji": "^2.1.0",
+    "vue-clickaway": "^2.2.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.4.3",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
+  }
+}
