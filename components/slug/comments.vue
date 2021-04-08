@@ -79,7 +79,7 @@ export default {
         });
     },
     async getComments() {
-      await this.$content('_data', {deep: true})
+      await this.$content('comments', {deep: true})
         .fetch()
         .then(res => {
           this.comments = res

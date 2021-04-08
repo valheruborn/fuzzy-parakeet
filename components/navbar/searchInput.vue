@@ -60,7 +60,7 @@ export default {
       if (!searchQuery) {
         this.articles = [];
       } else {
-        this.articles = await this.$content("", { deep: true })
+        this.articles = await this.$content("articles", { deep: true })
           .limit(5)
           .search(searchQuery)
           .fetch();

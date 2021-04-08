@@ -1,8 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  // Mode
-  ssr: true,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'perBlog',
@@ -42,9 +40,10 @@ export default {
   ],
   // To generate routes for SPA
   generate: {
+    dir: 'docs',
     async routes() {
       const { $content } = require('@nuxt/content')
-      const files = await $content({ deep: true }).only(['slug']).fetch()
+      const files = await $content('articles', { deep: true }).only(['slug']).fetch()
 
       return files.map(file => file.path === '/index' ? '/' : file.slug)
     },
